@@ -5,6 +5,7 @@ import TaskComponent from '../pure/task';
 import '../../styles/task.scss';
 import TaskForm from '../pure/forms/taskForm';
 
+//
 const TaskListComponent = () => {
 
     const defaultTask1 = new Task('Ejemplo 1', 'Descripción por defecto 1', true, LEVEL.HIGH);
