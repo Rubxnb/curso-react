@@ -13,7 +13,7 @@ import OptionalRender from './components/pure/optionalRender';
 function App() {
   return (
     <div className="App">
-     {/* <TaskListComponent/> */}
+     <TaskListComponent/>
      {/* <ContactList/> */}
     {/*  <Father/> */}
       {/* <header className="App-header"> */}
@@ -32,7 +32,7 @@ function App() {
         </Ejemplo4> */}
 
         {/* <GreetingStyled name="Rubén"/> */}
-        {/* <a
+        {/* <a  
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
@@ -42,7 +42,7 @@ function App() {
         </a>
       </header> */}
 
-      <OptionalRender/>
+      {/* <OptionalRender/> */}
 
     </div>
   );
