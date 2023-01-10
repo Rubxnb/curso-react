@@ -108,7 +108,7 @@ const TaskListComponent = () => {
                     </div>
                 {/* Card Body */}    
                     <div className='card-body' data-mdb-perfect-scrollbar='true' style={{position:'relative', heigth: '500px'}}>
-                    // ! TODO: ADD LOADING SPINNER
+                    {/* TODO: ADD LOADING SPINNER */}
                         { loading ? <p style={loadingStyle}>Cargando...</p> : taskTable }
                     </div>
                     <TaskForm add={addTask} length={tasks.length}/>

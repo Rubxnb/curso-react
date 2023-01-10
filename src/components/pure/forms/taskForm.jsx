@@ -10,13 +10,14 @@ const TaskForm = ({add, length}) => {
   const levelRef = useRef(LEVEL.NORMAL);
 
   function addTask(e){
+    // evita la recarga de la página
     e.preventDefault(); 
     const newTask = new Task(
       nameRef.current.value,
       descriptionRef.current.value,
       false,
       levelRef.current.value
-    )
+    );
 
     add(newTask);
   }

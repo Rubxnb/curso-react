@@ -4,6 +4,7 @@ import TaskListComponent from './components/container/task_list';
 import Father from './components/container/father';
 import ContactList from './components/container/contact_list';
 import OptionalRender from './components/pure/optionalRender';
+import LoginFormik from './components/pure/forms/loginFormik';
 //import ContactList from './components/container/contact_list';
 //import Ejemplo1 from './hooks/Ejemplo1';
 //import Ejemplo2 from './hooks/Ejemplo2';
@@ -13,7 +14,7 @@ import OptionalRender from './components/pure/optionalRender';
 function App() {
   return (
     <div className="App">
-     <TaskListComponent/>
+     {/* <TaskListComponent/> */}
      {/* <ContactList/> */}
     {/*  <Father/> */}
       {/* <header className="App-header"> */}
@@ -41,7 +42,7 @@ function App() {
           Learn React
         </a>
       </header> */}
-
+      <LoginFormik/>
       {/* <OptionalRender/> */}
 
     </div>
