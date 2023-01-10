@@ -5,6 +5,8 @@ import Father from './components/container/father';
 import ContactList from './components/container/contact_list';
 import OptionalRender from './components/pure/optionalRender';
 import LoginFormik from './components/pure/forms/loginFormik';
+import RegisterFormik from './components/pure/forms/registerFormik';
+import TaskFormik from './components/pure/forms/taskFormik';
 //import ContactList from './components/container/contact_list';
 //import Ejemplo1 from './hooks/Ejemplo1';
 //import Ejemplo2 from './hooks/Ejemplo2';
@@ -42,7 +44,9 @@ function App() {
           Learn React
         </a>
       </header> */}
-      <LoginFormik/>
+      {/* <LoginFormik/> */}
+      {/* <RegisterFormik/> */}
+      <TaskFormik/>
       {/* <OptionalRender/> */}
 
     </div>

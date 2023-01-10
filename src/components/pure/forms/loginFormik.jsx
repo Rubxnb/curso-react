@@ -41,7 +41,7 @@ const LoginFormik = () => {
             >
 
                 {/* Obtenemos las props desde Formik */}
-
+                {/* Pintamos el form */}
                 { ({
                         values,
                         touched,
