@@ -1,4 +1,4 @@
-# Curso ReactJS básico
+# Aprendiendo React ⚛️
 Proyecto para aprender lo básico de ReactJS
 
 * Componentes 
