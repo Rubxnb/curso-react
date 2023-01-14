@@ -1,5 +1,5 @@
 # Aprendiendo React ⚛️
-Proyecto para aprender lo básico de ReactJS
+Proyecto para aprender lo básico de **React**
 
 * Componentes 
 * Jeraraquías
