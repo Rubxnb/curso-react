@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import {Formik, Field, Form, ErrorMessage} from 'formik';
 import * as Yup from 'yup';
 
@@ -18,6 +19,8 @@ const LoginFormik = () => {
         password: ''
     };
 
+    const navigate =  useNavigate();
+
     return (
         <div>
             <h4>Login</h4>
@@ -30,13 +33,14 @@ const LoginFormik = () => {
                 // ? crea un método asíncrono
                 onSubmit={async (values) =>{
                     // ? tarda 2 segundos en lanzar la acción
-                    await new Promise((r) => setTimeout(r, 2000));
+                    await new Promise((r) => setTimeout(r, 1000));
                     // ? luego manda la alerta con los valores de los Fields 
                     alert(JSON.stringify(values, null, 2));
                     // ? guardamos la información en el local storage del navegador
                     // ! SESSION STORAGE: DURA DURANTE ESA SESIÓN DEL NAVEGADOR
                     // ! LOCAL STORAGE: DURA PARA SIEMPRE
-                    localStorage.setItem('credentials', values);
+                    await localStorage.setItem('credentials', values);
+                    navigate('/profile');
                 }}
             >
 
