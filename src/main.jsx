@@ -8,12 +8,11 @@ import 'bootstrap-icons/font/bootstrap-icons.css'
 import './index.css';
 import App from './App'
 import AppRoutingOne from './AppRoutingOne';
-
-import { BrowserRouter } from "react-router-dom";
+import AppRoutingFinal from './AppRoutingFinal';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-      <AppRoutingOne />
+      <AppRoutingFinal />
   </React.StrictMode>,
 )
 
