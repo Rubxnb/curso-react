@@ -7,6 +7,7 @@ import OptionalRender from './components/pure/optionalRender';
 import LoginFormik from './components/pure/forms/loginFormik';
 import RegisterFormik from './components/pure/forms/registerFormik';
 import TaskFormik from './components/pure/forms/taskFormik';
+import AsyncExample from './components/pure/AsyncExample';
 //import ContactList from './components/container/contact_list';
 //import Ejemplo1 from './hooks/Ejemplo1';
 //import Ejemplo2 from './hooks/Ejemplo2';
@@ -46,9 +47,11 @@ function App() {
       </header> */}
       {/* <LoginFormik/> */}
       {/* <RegisterFormik/> */}
-      <TaskFormik/>
+      {/* <TaskFormik/> */}
       {/* <OptionalRender/> */}
 
+      {/* Ejemplos de procesos asíncronos  */}
+      <AsyncExample/>
     </div>
   );
 }
