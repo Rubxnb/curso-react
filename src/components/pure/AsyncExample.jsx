@@ -98,13 +98,14 @@ const AsyncExample = () => {
     
     return (
         <div>
-        <h1>Asycn, Promise Examples</h1>
+        <h1>Async, Promise Examples</h1>
             <button onClick={obtainNumber}> Obtain Number</button>
             <button onClick={obtainPromiseNumber}> Obtain Promise Number</button>
             <button onClick={showStorage}> Show Storage</button>
             <button onClick={obtainMessage}> Send message in 2s</button>
             <button onClick={consumeError}>Consume Error</button>
             <button onClick={urlNotFound}>URL Not Found</button>
+            <button onClick={multiplePromise}>Multiple Promises</button>
         </div>
     );
 }
